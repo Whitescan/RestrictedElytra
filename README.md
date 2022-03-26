@@ -1,4 +1,4 @@
-# ConsoleFilter
+# RestrictedElytra
 A lightweight plugin to restrict the use of Elytras until reaching the End
 
 # Java Version
