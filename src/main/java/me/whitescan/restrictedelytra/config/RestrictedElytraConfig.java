@@ -26,6 +26,7 @@ public class RestrictedElytraConfig extends BukkitConfigHandler {
 
 	public RestrictedElytraConfig(Plugin plugin) {
 		super(plugin, new File(plugin.getDataFolder(), "config.yml"));
+		read();
 	}
 
 	@Override

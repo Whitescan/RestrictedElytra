@@ -1,11 +1,11 @@
 # Restricted Elytra Coniguration
 config:
   
-  # Should vanished players be allowed to place or break blocks?
-  trigger-advancement-key: end/root
+  # The NamespacedKey (minecraft namespace) used to check if the player has a certain advancement which allows him to use the elytra.
+  trigger-advancement-key: 'end/root'
   
   # Message used when player is not allowed to use Elytras yet.
-  not-allowed-message: '&cYou need the Achievement &5The End? &cto use Elytras.'
+  not-allowed-message: '&cYou need the Advancement &5The End? &cto use Elytras.'
   
   # Message used when player is not allowed to use /restrictedelytrareload command.
   no-permission-message: '&cSorry, you are not permitted to perform that command.'

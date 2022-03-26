@@ -1,5 +1,6 @@
 package me.whitescan.restrictedelytra;
 
+import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import me.whitescan.restrictedelytra.commands.ReloadRestrictedElytraCommand;
@@ -11,7 +12,7 @@ import me.whitescan.restrictedelytra.listeners.ElytraListener;
  * @author Whitescan
  *
  */
-public class RestrictedElytra extends JavaPlugin {
+public class RestrictedElytra extends JavaPlugin implements Listener {
 
 	private RestrictedElytraConfig restrictedElytraConfig;
 
