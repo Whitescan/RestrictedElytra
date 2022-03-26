@@ -1,0 +1,10 @@
+name: ${project.name}
+version: ${project.version}
+description: ${project.description}
+api-version: 1.18
+author: Whitescan
+main: me.whitescan.restrictedelytra.RestrictedElytra
+
+commands:
+  reloadrestrictedelytra:
+    permission: restrictedelytra.reload
